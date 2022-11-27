@@ -1,0 +1,158 @@
+body {
+    background-position-y: -100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    color: #222;
+    line-height: 1.4;
+  }
+
+  .container {
+    width: 960px;
+    max-width: 100%;
+    margin: 68px auto 50px;
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-block-end: 40px;
+    margin-block-end: 48px;
+    border-block-end: 1px dashed #ccc;
+  }
+
+  a {
+    color: #65638f;
+    text-decoration: none;
+  }
+
+  .logo-box {
+	border: 1px solid #ddd;
+    background-size: contain;
+    width: 180px;
+    min-width: 180px;
+    height: 180px;
+    padding: 1px;
+    margin: 0 20px;
+    background-repeat: no-repeat;
+	border-radius: 22.5%;
+  }
+
+  .logo {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    border-radius: 22.5%;
+  }
+
+  article {
+    flex: 1;
+    min-width: 360px;
+    max-width: 100%;
+  }
+
+  h1, h2 {
+    font-family: Heebo, sans-serif;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin: 28px 0 48px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .service-line {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .service-line .icon {
+    height: 40px;
+    width: auto;
+    margin-inline-start: 6px;
+  }
+
+  .service-line .name {
+    font-size: 16px;
+    color: #666;
+    text-align: end;
+  }
+
+  .download-box {
+    margin-block-end: 10px;
+    display: flex;
+  }
+
+  .download-btn {
+    margin-inline-end: 10px;
+  }
+
+  .download-btn .img {
+    height: 40px;
+    width: auto;
+  }
+
+  main {
+    padding-block-end: 40px;
+    margin-block-end: 48px;
+    border-block-end: 1px dashed #ccc;
+  }
+
+  main .content {
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 0 20px;
+  }
+
+  .screenshots-area {
+    margin-block-end: 48px;
+  }
+
+  .screenshots-box {
+    display: flex;
+
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .screenshots-box .item-box {
+    height: 310px;
+    margin-inline-end: 20px;
+  }
+
+  .screenshots-box .item-box .img {
+    height: 100%;
+    width: auto;
+
+    border-radius: 16px;
+    box-shadow: 0 6px 24px rgb(17 16 62 / 12%);
+    transition: all .3s ease-in-out;
+    transform: scale(1);
+    cursor: pointer;
+  }
+
+  .screenshots-box .item-box .img:hover {
+    box-shadow: 0 5px 24px rgba(17, 16, 62, .12);
+    transform: scale(1.05);
+  }
+
+  footer {
+    text-align: center;
+    color: #666;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .download-box {
+      padding: 0 20px;
+    }
+  }
