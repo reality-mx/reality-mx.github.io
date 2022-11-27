@@ -30,7 +30,7 @@ body {
   }
 
   .logo-box {
-    background-image: url(/static/images/mask-border.svg);
+    border: 1px solid #ddd;
     background-size: contain;
     width: 180px;
     min-width: 180px;
@@ -38,6 +38,7 @@ body {
     padding: 1px;
     margin: 0 20px;
     background-repeat: no-repeat;
+	border-radius: 22.5%;
   }
 
   .logo {
